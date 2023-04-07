@@ -1,0 +1,23 @@
+* 100 0 won ©
+
+fkeyframes onimateGirl
+{
+
+ox
+{
+transform: translateX(calc(100% + 100ww));
+}
+Sex
+{
+transform: translateX(calc(-10e%x - 180w));
+}
+50.01%
+{
+57 transform: translateX(calc(-100% - 100vw))
+rotateY(188ceg);
+}
+100%
+
+{
+transform: translateX(calc(18@% + 180vw)) rotate
+(188deg);
