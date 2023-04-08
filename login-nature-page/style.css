@@ -1,0 +1,80 @@
+body {
+  font-family: 'Roboto', sans-serif;
+  position: relative;
+  width: 100%;
+  height: 100vh;
+  min-width: 525px;
+  background-image: url("./imgs/road.jpeg");
+  background-repeat: repeat-x;
+  background-position: right top;
+  background-color: #77b244;
+}
+
+@keyframes bike-animation {
+  0% {
+    transform: translateX(0);
+    left: -250px;
+  }
+  50% {
+    transform: translateX(0);
+    left: 100%;
+  }
+  50.01% {
+    transform: translateX(0) rotateY(180deg);
+    left: 110%;
+  }
+  100% {
+    transform: translateX(0) rotateY(180deg);
+    left: -350px;
+  }
+}
+
+.bike-girl {
+  position: relative;
+  top: 30px;
+  animation: bike-animation 20s linear infinite;
+}
+
+.tree {
+  width: 255px;
+  margin-bottom: 60px;
+}
+
+form{
+    position: absolute;
+    margin: auto;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    width: 350px;
+    height: 300px;
+    background-color: rgb(255 255 255 / 21%);
+    border-radius: 8px;
+    padding: 16px 32px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+form:hover{
+    background-color: rgb(255 255 255 / 50%);
+}
+form h2{
+    margin-top: 0;
+    text-align: center;
+}
+
+form input{
+    padding: 8px;
+    border-radius: 8px;
+    margin-bottom: 16px;
+}
+form input.btn-sign-in{
+    background-color: #52960e;
+    border: 1px solid grey;
+}
+form input.btn-sign-in:hover{
+    background-color: #346206;
+    border: 1px solid rgb(221, 217, 217);
+    color: white;
+}
