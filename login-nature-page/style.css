@@ -78,3 +78,14 @@ form input.btn-sign-in:hover{
     border: 1px solid rgb(221, 217, 217);
     color: white;
 }
+.giphy{
+  width: 120px;
+  position: absolute;
+  bottom: 100px;
+}
+.dog{
+  width: 400px;
+  position: absolute;
+  left: 50px;
+  bottom: 150px;
+}
